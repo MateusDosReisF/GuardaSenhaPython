@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>709</width>
+    <height>421</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>709</width>
+    <height>421</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>709</width>
+    <height>421</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Main</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>ico.png</normaloff>ico.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>709</width>
+     <height>400</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>709</width>
+     <height>400</height>
+    </size>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-10</y>
+      <width>721</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>fundoMain.png</pixmap>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>709</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <addaction name="actionGuarda_Senha"/>
+    <addaction name="actionCategorias"/>
+   </widget>
+   <widget class="QMenu" name="menuRelatorio">
+    <property name="title">
+     <string>Relatorio</string>
+    </property>
+    <addaction name="actionRela_o_de_Senhas"/>
+   </widget>
+   <addaction name="menuMenu"/>
+   <addaction name="menuRelatorio"/>
+  </widget>
+  <action name="actionCategorias">
+   <property name="text">
+    <string>Categorias</string>
+   </property>
+  </action>
+  <action name="actionRela_o_de_Senhas">
+   <property name="text">
+    <string>Relação de Senhas</string>
+   </property>
+  </action>
+  <action name="actionGuarda_Senha">
+   <property name="text">
+    <string>Guarda Senha</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
